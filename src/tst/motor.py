@@ -3,8 +3,8 @@ import RPi.GPIO as GPIO
 import time
 
 # Pin Definitons:
-motForward = 23 # Broadcom pin 18 (P1 pin 12)
-motReverse = 24 # Broadcom pin 23 (P1 pin 16)
+motForward = 23
+motReverse = 24
 
 # Pin Setup:
 GPIO.setmode(GPIO.BCM) # Broadcom pin-numbering scheme
